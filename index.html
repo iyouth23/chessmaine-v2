@@ -15,8 +15,13 @@
     </head>
     <body>
 
-        <div id="logo-header" class="row justify-content-center">
-            <img id="chessmaine-logo" src="chessmaine-logo.jpg" alt="ChessMaine">
+        <div id="logo-header" class="row justify-content-between align-items-center">
+            <a href="index.html" class="col-4">
+                <img id="chessmaine-logo" src="images/chessmaine-logo.jpg" alt="ChessMaine">
+            </a>
+            <p class="multiple-winner col-4">
+                Multiple Winner! Best State Chess Website (Chess Journalists of America)
+            </p>
         </div>
 
         <nav id="navigation-bar" class="navbar">
@@ -73,36 +78,47 @@
             </div>
         </nav>
 
-        <div id="news">
+        <div class="news">
             <h1>
                 ChessMaine News
             </h1>   
+
             <hr>
             
-            <div id="nepomniachtchi" class="primary-entry align-items-center">
-                <h3>
+            <div id="news-item-1" class="home-page-entry align-items-center">
+                <h3 class="blog-post-title">
                     Nepomniachtchi Wins Candidates Tournament
                 </h3>
-                <h4>
-                    04.26.21
+                <h4 class="blog-post-date">
+                    April 26, 2021
                 </h4>
     
-                <img src="http://chessmaine.net/chessmaine/imagesB/stock images/Nepo.png" 
-                    alt="Nepomniachtchi">
+                <div class="home-page-entry-content row align-items-center">
+                    
+                    <img src="http://chessmaine.net/chessmaine/imagesB/stock images/Nepo.png" 
+                    alt="Nepomniachtchi" class="col-6">
     
-                <p>Ian Nepomniachtchi, Russia's highest-rated player, has won the Candidates Tournament 
-                    with one round to go and earned the right to square off against Magnus Carlsen in the 
-                    World Championship Match scheduled for November 24 - December 16, 2021 in Dubai.
-                </p>
-
-                <span>
-                    <a href="nepomniachtchi-wins-candidates-tournament.html">Continue Reading</a>
-                    <a href="nepomniachtchi-wins-candidates-tournament.html">Comments</a>
-                </span>
-
+                    <div class="col-6">
+                        <p class="blog-snippet">
+                            Ian Nepomniachtchi, Russia's highest-rated player, has won the Candidates Tournament 
+                            with one round to go and earned the right to square off against Magnus Carlsen in the 
+                            World Championship Match scheduled for November 24 - December 16, 2021 in Dubai.
+                        </p>
+                        <p class="more-info">
+                            <form action="full-blog-posts/nepomniachtchi-wins-candidates-tournament.html">
+                                <input type="submit" class="continue-reading" value="Continue Reading">
+                            </form>
+                            <form action="full-blog-posts/nepomniachtchi-wins-candidates-tournament.html#comments-landing-spot">
+                                <input type="submit" class="comments" value="Comments">
+                            </form>
+                        </p>
+                    </div>
+                </div>
 
                 <hr>
+
             </div>
+
         </div>
         
         <script src="script.js"></script>

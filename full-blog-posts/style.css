@@ -118,7 +118,7 @@ h1 {
     text-align: center;
 }
 
-.home-page-entry {
+.expanded-entry {
 
     margin: auto;
     padding: 10px;
@@ -131,9 +131,21 @@ h1 {
     margin-bottom: 15px;
 }
 
-.blog-snippet {
-    font-size: 1.1em;
-    justify-content: left;
+.expanded-entry-content figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.image-credit {
+    font-style: italic;
 }
 
 .more-info {
@@ -149,20 +161,6 @@ h1 {
     float: right;
 }
 
-input {
-    background-color: rgb(56, 56, 56);
-    color: white;
-    border: 2px solid rgb(56, 56, 56);
-    padding: 10px;
-    border-radius: 15px;
-}
-
-input:hover {
-    background-color: white;
-    color: rgb(56, 56, 56);
-    text-decoration: none;
-}
-
 hr {
     border-top: 10px solid rgb(15, 118, 15);
     border-radius: 5px;
@@ -173,4 +171,56 @@ hr {
     border-top: 10px solid rgb(15, 118, 15);
     border-radius: 5px;
     margin: 50px 0px;
+}
+
+a:visited {
+    color: purple;
+}
+
+.comment-info {
+    text-align: right;
+}
+
+.commenter {
+    font-weight: bold;
+}
+
+.time-stamp {
+    font-weight: bold;
+    color: blue;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input, textarea {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input:hover, textarea:hover {
+    background-color: yellow;
+}
+
+#submit-button {
+    background-color: black;
+    color: white;
+
+    border: 2px solid black;
+
+    margin-top: 50px;
+    display: block;
+    border-radius: 10px;
+}
+
+#submit-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.blog-title-hidden {
+    display: none;
 }
