@@ -136,19 +136,6 @@ h1 {
     justify-content: left;
 }
 
-.more-info {
-    margin-top: 30px;
-    overflow: auto;
-}
-
-.continue-reading {
-    float: left;
-}
-
-.comments {
-    float: right;
-}
-
 input {
     background-color: rgb(56, 56, 56);
     color: white;
@@ -169,8 +156,17 @@ hr {
     margin: 50px 0px;
 }
 
+.home-page-entry-content {
+    margin: auto 10px;
+}
+
 .home-page-entry-content ~ hr {
     border-top: 10px solid rgb(15, 118, 15);
     border-radius: 5px;
     margin: 50px 0px;
+}
+
+.links a {
+    display: block;
+    margin: 10px 0px;
 }
