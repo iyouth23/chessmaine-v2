@@ -232,3 +232,16 @@ input:hover, textarea:hover {
 .single-link {
     text-align: center;
 }
+
+.btn {
+    display: block;
+    color: white;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+
+    border: 1px solid black;
+}
