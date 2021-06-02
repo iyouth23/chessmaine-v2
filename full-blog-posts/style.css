@@ -245,7 +245,3 @@ input:hover, textarea:hover {
 
     border: 1px solid black;
 }
-
-.btn:visited {
-    color: black;
-}
