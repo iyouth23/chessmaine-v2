@@ -183,3 +183,7 @@ hr {
 
     border: 1px solid black;
 }
+
+.btn:visited {
+    color: inherit;
+}
