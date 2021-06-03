@@ -245,3 +245,7 @@ input:hover, textarea:hover {
 
     border: 1px solid black;
 }
+
+.dropdown-content > a {
+    margin-top: 12px;
+}
