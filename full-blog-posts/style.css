@@ -3,7 +3,7 @@
 body {
     background-color: #f5f1de;
     color: #363238;
-    font-family: Arial;
+    font-family: 'Noto Serif JP';
 }
 
 #logo-header, #navigation-bar {
@@ -11,7 +11,7 @@ body {
 }
 
 #logo-header {
-    background-color: #d0e3e9;
+    background-color: #D0E3E9;
     position: fixed;
     top: 0px;
     margin-left: auto;
@@ -47,7 +47,7 @@ body {
 
 .dropbtn {
     background-color: black;
-    color: #d0e3e9;
+    color: #FFFFFF;
 
     padding: 5px 16px;
 
@@ -58,15 +58,15 @@ body {
     position: relative;
     display: inline-block;
 
-    border-left: 1px solid #d0e3e9;
-    border-right: 1px solid #d0e3e9;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
 
     flex: 1;
 }
   
 .dropdown-content {
     background-color: black;
-    color: #d0e3e9;
+    color: #FFFFFF;
 
     display: none;
     position: absolute;
@@ -80,7 +80,7 @@ body {
   
 .dropdown-content button {
     background-color: black;
-    color: #d0e3e9;
+    color: #FFFFFF;
     
     display: block;
 
@@ -94,7 +94,7 @@ body {
 }
   
 .dropdown-content button:hover {
-    background-color: #d0e3e9;
+    background-color: #FFFFFF;
     color: black;
 
     border-left: 1px solid black;
@@ -192,9 +192,13 @@ label {
 }
 
 input, textarea {
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+textarea {
+    width: 50%;
 }
 
 input:hover, textarea:hover {
@@ -244,4 +248,39 @@ input:hover, textarea:hover {
 
 .dropdown-content > a {
     margin-top: 12px;
+}
+
+#footer {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#footer-content {
+    padding: 10px;
+    background-color: #e48b58;
+    border-radius: 5px;
+}
+
+#footer-content a {
+    color: black;
+}
+
+#footer-content :hover {
+    color: black;
+}
+
+.posted-comments {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#comments-landing-spot {
+    margin-bottom: 150px;
+}
+
+/* Remove upon comment post */
+.posted-comments {
+    display: none;
 }

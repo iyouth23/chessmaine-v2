@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
             integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
             crossorigin="anonymous">
+        
+        <link href='https://fonts.googleapis.com/css?family=Noto Serif JP' rel='stylesheet'>
 
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
@@ -100,7 +102,7 @@
 
                 </p>
 
-                <hr>
+                <hr id="comments-landing-spot">
 
                 <div class="posted-comments">
                     <h3 class="blog-post-title">
@@ -117,7 +119,7 @@
 
                 <hr class="posted-comments">
 
-                <div id="comments-landing-spot" class="submit-comment-section">
+                <div class="submit-comment-section">
 
                     <h3 class="blog-post-title">
                         Submit a Comment
@@ -128,19 +130,19 @@
                         <label for="name">
                             Name:
                         </label>
-                        <input type="text" name="name">
+                        <input type="text" class="form-field" name="name" required>
 
                         <input class="blog-title-hidden" type="text" name="Article Title" value="maine-individual-scholastic-chess-championship.html">
 
                         <label for="email">
                             Email:
                         </label>
-                        <input type="email" name="email">
+                        <input type="email" class="form-field" name="email" required>
                         
                         <label for="message">
                             Message:
                         </label>
-                        <textarea name="message">
+                        <textarea class="form-field" name="message" required>
 
                         </textarea>
                         <button id="submit-button" type="submit">Send</button>
@@ -151,6 +153,12 @@
             </div>
 
             <hr>
+
+            <div id="footer">
+                <span id="footer-content">
+                    All content © 2004 - 2021 ChessMaine & <a href="mailto:info@chessmaine.net">Daniel C. DeLuca</a>  |  Site design by <a href="http://mossyskull.com">Michael J. DeLuca</a> and <a href="mailto:iyouth66@gmail.com">Ian S. Youth</a>
+                </span>
+            </div>
 
         </div>
 
