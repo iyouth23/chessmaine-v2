@@ -101,4 +101,7 @@
         margin-right: auto;
         width: 30%;
     }
+    input {
+        width: 50%;
+    }
 }
