@@ -14,21 +14,24 @@
         <link href='https://fonts.googleapis.com/css?family=Noto Serif JP' rel='stylesheet'>
         
         <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="responsive.css" type="text/css" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
 
         <div id="logo-header" class="row justify-content-between align-items-center">
-            <a href="index.html" class="col-4">
+            <a href="index.html" class="col-lg-4">
                 <img id="chessmaine-logo" src="images/chessmaine-logo.jpg" alt="ChessMaine">
             </a>
-            <p class="multiple-winner col-4">
+            <p id="multiple-winner" class="multiple-winner col-4">
                 Multiple Winner! Best State Chess Website (Chess Journalists of America)
             </p>
         </div>
 
         <nav id="navigation-bar" class="navbar">
             <div class="dropdown">
-                <a class="btn dropbtn upcoming-events">Upcoming Events</a>
+                <a id="upcoming-events-text" class="btn dropbtn upcoming-events">Upcoming Events</a>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">Player Resources</button>
@@ -80,10 +83,8 @@
             </div>
         </nav>
 
-        <div id="full-page">
-
         <div class="news">
-            <h1>
+            <h1 id="chessmaine-news">
                 ChessMaine News
             </h1>   
 
@@ -101,12 +102,12 @@
     
                 <div class="home-page-entry-content row align-items-center">
                     
-                    <a href="full-blog-posts/nepomniachtchi-wins-candidates-tournament.html" class="col-6">
+                    <a href="full-blog-posts/nepomniachtchi-wins-candidates-tournament.html" class="col-lg-6">
                         <img src="images/nepomniachtchi.png" 
                         alt="Nepomniachtchi">
                     </a>
     
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <p class="blog-snippet">
                             Ian Nepomniachtchi, Russia's highest-rated player, has won the Candidates Tournament 
                             with one round to go and earned the right to square off against Magnus Carlsen in the 
@@ -139,12 +140,12 @@
     
                 <div class="home-page-entry-content row align-items-center">
                     
-                    <a href="full-blog-posts/roger-morin-scholarships.html" class="col-6">
+                    <a href="full-blog-posts/roger-morin-scholarships.html" class="col-lg-6">
                         <img src="images/roger-morin-scholarships.jpg" 
                         alt="Roger Morin Scholarships">
                     </a>
     
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <p class="blog-snippet">
                             The Roger J. Morin Scholarship Committee of the Maine Chess Association 
                             is now accepting applications for the Roger J. Morin Scholarship. This 
@@ -180,12 +181,12 @@
     
                 <div class="home-page-entry-content row align-items-center">
                     
-                    <a href="full-blog-posts/the-craft-makers-gambit.html" class="col-6">
+                    <a href="full-blog-posts/the-craft-makers-gambit.html" class="col-lg-6">
                         <img src="images/the-craft-makers-gambit.png" 
                         alt="Craft Maker's Gambit">
                     </a>
 
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <p class="blog-snippet">
                             <em>The Craft Maker's Gambit: An Exhibition of Chess</em> is a 
                             chess-inspired art exhibit hosted by the Center for Maine 
@@ -213,7 +214,7 @@
             <div id="more-events">
                 <h2>
                     <form action="navbar-pages/events.html">
-                        <input type="submit"value="See All Upcoming Events">
+                        <input id="see-all-upcoming-events-button" type="submit"value="See All Upcoming Events">
                     </form>
                 </h2>
             </div>
@@ -221,9 +222,9 @@
             <hr>
 
             <div id="footer">
-                <span id="footer-content">
+                <p id="footer-content">
                     All content © 2004 - 2021 ChessMaine & <a href="mailto:info@chessmaine.net">Daniel C. DeLuca</a>  |  Site design by <a href="http://mossyskull.com">Michael J. DeLuca</a> and <a href="mailto:iyouth66@gmail.com">Ian S. Youth</a>
-                </span>
+                </p>
             </div>
 
         </div>

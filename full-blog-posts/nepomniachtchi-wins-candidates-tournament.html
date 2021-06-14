@@ -14,21 +14,24 @@
         <link href='https://fonts.googleapis.com/css?family=Noto Serif JP' rel='stylesheet'>
 
         <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="responsive.css" type="text/css" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
 
         <div id="logo-header" class="row justify-content-between align-items-center">
-            <a href="../index.html" class="col-4">
+            <a href="../index.html" class="col-lg-4">
                 <img id="chessmaine-logo" src="../images/chessmaine-logo.jpg" alt="ChessMaine">
             </a>
-            <p class="multiple-winner col-4">
+            <p id="multiple-winner" class="multiple-winner col-4">
                 Multiple Winner! Best State Chess Website (Chess Journalists of America)
             </p>
         </div>
 
         <nav id="navigation-bar" class="navbar">
             <div class="dropdown">
-                <a class="btn dropbtn upcoming-events">Upcoming Events</a>
+                <a id="upcoming-events-text" class="btn dropbtn upcoming-events">Upcoming Events</a>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">Player Resources</button>
@@ -192,9 +195,9 @@
             <hr>
 
             <div id="footer">
-                <span id="footer-content">
+                <p id="footer-content">
                     All content © 2004 - 2021 ChessMaine & <a href="mailto:info@chessmaine.net">Daniel C. DeLuca</a>  |  Site design by <a href="http://mossyskull.com">Michael J. DeLuca</a> and <a href="mailto:iyouth66@gmail.com">Ian S. Youth</a>
-                </span>
+                </p>
             </div>
 
         </div>

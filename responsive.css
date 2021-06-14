@@ -1,0 +1,93 @@
+@media (max-width: 991.98px) {
+    #multiple-winner {
+        display: none;
+    }
+    #navigation-bar, #upcoming-events-text, .drop-btn, .dropdown-content, .btn {
+        font-size: 12.5px;
+    }
+    #logo-header, .col-lg-4 {
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #logo-header {
+        height: 107px;
+    }
+    #chessmaine-logo {
+        max-height: 100%;
+    }
+    .blog-post-title, .blog-post-date {
+        text-align: center;
+    }
+    .col-lg-6 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #footer {
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 767.98px) {
+    #logo-header {
+        height: 80px;
+    }
+    #chessmaine-logo {
+        max-height: 80px;
+    }
+    #chessmaine-news {
+        position: relative;
+        top: -20px;
+    }
+    #navigation-bar {
+        top: 80px;
+    }
+    .blog-post-title, .blog-post-date {
+        text-align: center;
+    }
+    .col-lg-6 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px) {
+    #see-all-upcoming-events-button {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 520px) {
+    #navigation-bar, #upcoming-events-text, .drop-btn, .dropdown-content, .btn {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 440px) {
+    #navigation-bar, #upcoming-events-text, .drop-btn, .dropdown-content, .btn {
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 365px) {
+    #navigation-bar, #upcoming-events-text, .drop-btn, .dropdown-content, .btn {
+        font-size: 4px;
+    }
+}
+
+@media (max-width: 520px) {
+    .continue-reading, .comments {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    #see-all-upcoming-events-button {
+        font-size: 12px;
+    }
+}
