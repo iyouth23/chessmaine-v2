@@ -1,3 +1,9 @@
+@media (min-width: 992px) {
+    .comment-button {
+        text-align: right;
+    }
+}
+
 @media (max-width: 991.98px) {
     #multiple-winner {
         display: none;
