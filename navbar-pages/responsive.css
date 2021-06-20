@@ -101,6 +101,8 @@
 @media (max-width: 991.98px) {
     body {
         text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     #submit-button {
         margin-left: auto;
