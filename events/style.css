@@ -144,6 +144,10 @@ figcaption {
     font-weight: bold;
 }
 
+.secondary-caption {
+    font-weight: normal;
+}
+
 .image-credit {
     font-style: italic;
 }
@@ -231,6 +235,9 @@ input:hover, textarea:hover {
 
 .single-link {
     text-align: center;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .btn {

@@ -144,6 +144,16 @@ figcaption {
     font-weight: bold;
 }
 
+.full-blog-post figure {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondary-caption {
+    font-weight: normal;
+}
+
 .image-credit {
     font-style: italic;
 }
@@ -231,6 +241,9 @@ input:hover, textarea:hover {
 
 .single-link {
     text-align: center;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .btn {

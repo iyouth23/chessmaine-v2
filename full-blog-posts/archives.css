@@ -1,0 +1,11 @@
+.archive-button {
+    background-color: lightseagreen;
+    color: black;
+    font-size: 1.5em;
+    max-width: 40%;
+    margin: 15px auto;
+}
+
+.archive-button:hover {
+    background-color: rgb(37, 231, 222);
+}
