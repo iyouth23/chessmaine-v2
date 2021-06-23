@@ -62,7 +62,7 @@
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 550px) {
     #navigation-bar, #upcoming-events-text, .drop-btn, .dropdown-content, .btn {
         font-size: 9px;
     }
@@ -103,5 +103,12 @@
     }
     input {
         width: 50%;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 379.98px) {
+    .news {
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
