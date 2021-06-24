@@ -232,3 +232,12 @@ img {
     color: black;
 }
 
+h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+#calendar-div {
+    text-align: center;
+    padding: 10px;
+}
